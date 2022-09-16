@@ -17,7 +17,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        // default_layer {
+         default_layer {
             bindings = <
     &kp N4     &kp N8      &kp F2       &kp F6       &kp F10       &kp F14     &kp F18   &kp U     &kp I       &kp ESC    &kp BSPC  &kp ENTER
     &kp N3     &kp N7      &kp F1       &kp F5       &kp F9        &kp F13     &kp F17   &kp J     &kp K       &kp L      &kp TAB   &kp RIGHT
