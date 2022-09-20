@@ -13,7 +13,7 @@
 #define QWERTY 2
 #define BT_CTRL  3
 
-/ {
+    {
     keymap {
         compatible = "zmk,keymap";
 
