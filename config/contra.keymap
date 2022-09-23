@@ -14,15 +14,28 @@
 #define BT_CTRL  3
 
 / {
+    macros {
+        tv_rst: tv_rst {
+            label = "tv_rst";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp X>
+                , <&macro_wait_time 5000>
+                , <&macro_tap &kp LA(F16)>
+                ;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-    &kp F18     &kp N4      &kp N8       &kp F2       &kp F10      &kp F14     &kp F6   &kp F19   &kp ESC     &kp BSPC   &kp ENTER &kp SEMI
-    &kp F17     &kp N3      &kp N7       &kp F1       &kp F9       &kp F13     &kp F5   &kp J     &kp K       &kp C      &kp RIGHT &kp SQT
-    &kp F16     &kp N2      &kp N6       &kp N0       &kp F8       &kp F12     &kp F4   &kp M     &kp COMMA   &kp UP     &kp DOWN  &kp GRAVE
-    &reset      &kp N1      &kp N5       &kp N9       &kp F7       &kp F15     &kp F3   &kp PLUS  &kp MINUS   &kp I      &kp LEFT  &mo 1
+    &kp F18    &kp LA(N4)   &kp LA(N8)   &kp LA(F2)   &kp LA(F10)  &kp UP     &kp DOWN   &kp N0    &kp F8     &kp PLUS    &kp MINUS &kp I
+    &kp F17    &kp LA(N3)   &kp LA(N7)   &kp J        &kp LA(F9)   &kp N3     &kp N6     &kp N9    &kp COMMA  &kp BSPC    &kp RIGHT &kp C
+    &tv_rst    &kp LA(N2)   &kp LA(N6)   &kp LA(N0)   &kp LA(F8)   &kp N2     &kp N5     &kp N8    &kp SPACE  &kp UP      &kp ENTER &kp DOWN
+    &reset     &kp LA(N1)   &kp LA(N5)   &kp H        &kp LA(F7)   &kp N1     &kp N4     &kp N7    &kp DOT    &kp ESC     &kp LEFT  &mo 1
             >;
         };
 
