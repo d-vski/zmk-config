@@ -20,9 +20,89 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &kp X>
-                , <&macro_wait_time 5000>
+                = <&macro_tap &kp H>
+                , <&macro_wait_time 1000>
                 , <&macro_tap &kp LA(F16)>
+                ;
+        };
+        ch_1: channel_1 {
+            label = "ch_1";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp H>
+                , <&macro_wait_time 1000>
+                , <&macro_tap &kp N1>
+                ;
+        };
+        ch_2: channel_2 {
+            label = "ch_2";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp H>
+                , <&macro_wait_time 1000>
+                , <&macro_tap &kp N2>
+                ;
+        };
+        ch_3: channel_3 {
+            label = "ch_3";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp H>
+                , <&macro_wait_time 1000>
+                , <&macro_tap &kp N3>
+                ;
+        };
+        ch_4: channel_4 {
+            label = "ch_4";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp H>
+                , <&macro_wait_time 1000>
+                , <&macro_tap &kp N4>
+                ;
+        };
+        ch_5: channel_5 {
+            label = "ch_5";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp H>
+                , <&macro_wait_time 1000>
+                , <&macro_tap &kp N5>
+                ;
+        };
+        ch_678: channel_678 {
+            label = "ch_678";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp H>
+                , <&macro_wait_time 1000>
+                , <&macro_tap &kp N6>
+                ;
+        };
+        ch_78: channel_78 {
+            label = "ch_78";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp H>
+                , <&macro_wait_time 1000>
+                , <&macro_tap &kp N7>
+                ;
+        };
+        ch_8: channel_8 {
+            label = "ch_8";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp H>
+                , <&macro_wait_time 1000>
+                , <&macro_tap &kp N8>
                 ;
         };
     };
@@ -32,10 +112,10 @@
 
         default_layer {
             bindings = <
-    &kp RA(F12) &kp LA(N4)   &kp LA(N8)   &kp LA(F2)   &kp LA(F10)  &kp UP     &kp DOWN   &kp N0    &kp F8     &kp PLUS    &kp MINUS &kp I
-    &kp RA(F1) &kp LA(N3)   &kp LA(N7)   &kp J        &kp LA(F9)   &kp N3     &kp N6     &kp N9    &kp COMMA  &kp BSPC    &kp RIGHT &kp C
-    &tv_rst    &kp LA(N2)   &kp LA(N6)   &kp LA(N0)   &kp LA(F8)   &kp N2     &kp N5     &kp N8    &kp SPACE  &kp UP      &kp ENTER &kp DOWN
-    &reset     &kp LA(N1)   &kp LA(N5)   &kp H        &kp LA(F7)   &kp N1     &kp N4     &kp N7    &kp DOT    &kp ESC     &kp LEFT  &mo 1
+    &kp RA(F12) &ch_4      &ch_8       &kp LA(F2)   &kp LA(F10)  &kp LA(HOME) &kp LA(END) &kp N0 &kp I      &kp PLUS    &kp MINUS &kp F8
+    &kp RA(F1) &ch_3       &ch_7       &kp J        &kp LA(F9)   &kp N3     &kp N6     &kp N9    &kp COMMA  &kp BSPC    &kp RIGHT &kp C
+    &kp F16    &ch_2       &ch_6       &kp LA(N0)   &kp LA(F8)   &kp N2     &kp N5     &kp N8    &kp SPACE  &kp UP      &kp ENTER &kp DOWN
+    &reset     &ch_1       &ch_5       &kp H        &kp LA(F7)   &kp N1     &kp N4     &kp N7    &kp DOT    &kp ESC     &kp LEFT  &mo 1
             >;
         };
 
