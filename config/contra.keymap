@@ -75,8 +75,8 @@
                 , <&macro_tap &kp N5>
                 ;
         };
-        ch_678: channel_678 {
-            label = "ch_678";
+        ch_6: channel_6 {
+            label = "ch_6";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -85,8 +85,8 @@
                 , <&macro_tap &kp N6>
                 ;
         };
-        ch_78: channel_78 {
-            label = "ch_78";
+        ch_7: channel_7 {
+            label = "ch_7";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
