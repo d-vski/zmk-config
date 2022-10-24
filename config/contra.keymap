@@ -124,7 +124,7 @@
     &to 3      &kp F4       &kp F8       &kp LA(F2)   &kp LA(F10)  &kp UP     &kp DOWN   &kp N0    &kp I      &kp PLUS    &kp MINUS &kp LC(F8)
     &to 2      &kp F3       &kp F7       &kp J        &kp LA(F9)   &kp N3     &kp N6     &kp N9    &kp COMMA  &kp BSPC    &kp RIGHT &kp C
     &kp F16    &kp F2       &kp F6       &kp LA(N0)   &kp LA(F8)   &kp N2     &kp N5     &kp N8    &kp SPACE  &kp UP      &kp ENTER &kp DOWN
-    &reset     &kp F1       &kp F5       &kp H        &kp LA(F7)   &kp N1     &kp N4     &kp N7    &kp DOT    &kp ESC     &kp LEFT  &TRANS
+    &reset     &kp F1       &kp F5       &kp H        &kp LA(F7)   &kp N1     &kp N4     &kp N7    &kp DOT    &kp ESC     &kp LEFT  &trans
                 >;
         };
 
