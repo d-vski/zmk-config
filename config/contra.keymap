@@ -112,19 +112,19 @@
 
         default_layer {
             bindings = <
-    &kp RA(F12) &ch_4      &ch_8       &kp LA(F2)   &kp LA(F10)  &kp LA(HOME) &kp LA(END) &kp N0 &kp I      &kp PLUS    &kp MINUS &kp F8
-    &kp RA(F1) &ch_3       &ch_7       &kp J        &kp LA(F9)   &kp N3     &kp N6     &kp N9    &kp COMMA  &kp BSPC    &kp RIGHT &kp C
-    &kp F16    &ch_2       &ch_6       &kp LA(N0)   &kp LA(F8)   &kp N2     &kp N5     &kp N8    &kp SPACE  &kp UP      &kp ENTER &kp DOWN
-    &reset     &ch_1       &ch_5       &kp H        &kp LA(F7)   &kp N1     &kp N4     &kp N7    &kp DOT    &kp ESC     &kp LEFT  &mo 1
+    &kp RA(F12) &kp F4      &kp F8       &NONE        &NONE        &kp UP     &kp DOWN   &NONE     &NONE      &kp PLUS    &kp MINUS &kp LC(F8)
+    &kp RA(F1) &kp F3       &kp F7       &NONE        &NONE        &NONE      &NONE      &NONE     &NONE      &NONE       &NONE     &kp C
+    &kp F16    &kp F2       &kp F6       &NONE        &NONE        &NONE      &NONE      &NONE     &NONE      &NONE       &NONE     &kp DOWN
+    &reset     &kp F1       &kp F5       &NONE        &NONE        &NONE      &NONE      &NONE     &NONE      &NONE       &NONE     &mo 1
             >;
         };
 
         layer_select {
             bindings = <
-    &to 3      &trans       &trans       &trans       &trans       &trans      &trans    &trans    &trans      &trans     &trans    &trans
-    &to 2      &trans       &trans       &trans       &trans       &trans      &trans    &trans    &trans      &trans     &trans    &trans
-    &trans     &trans       &trans       &trans       &trans       &trans      &trans    &trans    &trans      &trans     &trans    &trans
-    &trans     &trans       &trans       &trans       &trans       &trans      &trans    &trans    &trans      &trans     &trans    &trans
+    &to 3      &kp F4       &kp F8       &kp LA(F2)   &kp LA(F10)  &kp UP     &kp DOWN   &kp N0    &kp I      &kp PLUS    &kp MINUS &kp LC(F8)
+    &to 2      &kp F3       &kp F7       &kp J        &kp LA(F9)   &kp N3     &kp N6     &kp N9    &kp COMMA  &kp BSPC    &kp RIGHT &kp C
+    &kp F16    &kp F2       &kp F6       &kp LA(N0)   &kp LA(F8)   &kp N2     &kp N5     &kp N8    &kp SPACE  &kp UP      &kp ENTER &kp DOWN
+    &reset     &kp F1       &kp F5       &kp H        &kp LA(F7)   &kp N1     &kp N4     &kp N7    &kp DOT    &kp ESC     &kp LEFT  &TRANS
                 >;
         };
 
