@@ -115,7 +115,7 @@
     &kp RA(F12) &kp F4      &kp F8       &none        &none        &kp UP     &kp DOWN   &none     &none      &kp PLUS    &none     &none
     &kp RA(F1) &kp F3       &kp F7       &none        &none        &kp N3     &kp N6     &kp N9    &none      &kp BSPC    &kp RIGHT &kp C
     &kp F16    &kp F2       &kp F6       &none        &none        &kp N2     &kp N5     &kp N8    &none      &kp UP      &kp ENTER &kp DOWN
-    &reset     &kp F1       &kp F5       &none        &none        &kp N1     &kp N4     &kp N7    &none      &kp ESC     &kp LEFT  &mo 1
+    &sys_reset &kp F1       &kp F5       &none        &none        &kp N1     &kp N4     &kp N7    &none      &kp ESC     &kp LEFT  &mo 1
             >;
         };
 
@@ -124,7 +124,7 @@
     &to 3      &kp F4       &kp F8       &kp LA(F2)   &kp LA(F10)  &kp UP     &kp DOWN   &kp N0    &kp I      &kp PLUS    &kp MINUS &kp LC(F8)
     &to 2      &kp F3       &kp F7       &kp J        &kp LA(F9)   &kp N3     &kp N6     &kp N9    &kp COMMA  &kp BSPC    &kp RIGHT &kp C
     &kp F16    &kp F2       &kp F6       &kp LA(N0)   &kp LA(F8)   &kp N2     &kp N5     &kp N8    &kp SPACE  &kp UP      &kp ENTER &kp DOWN
-    &reset     &kp F1       &kp F5       &kp H        &kp LA(F7)   &kp N1     &kp N4     &kp N7    &kp DOT    &kp ESC     &kp LEFT  &trans
+    &sys_reset &kp F1       &kp F5       &kp H        &kp LA(F7)   &kp N1     &kp N4     &kp N7    &kp DOT    &kp ESC     &kp LEFT  &trans
                 >;
         };
 
@@ -142,7 +142,7 @@
     &trans     &kp N1       &kp N2       &kp N3       &kp N4       &kp N5      &kp N6    &kp N7     &kp N8      &kp N9     &kp N0    &trans
     &bt BT_CLR &bt BT_SEL 0 &trans       &trans       &trans       &trans      &trans    &trans     &trans      &trans     &trans    &trans
     &trans     &trans       &trans       &trans       &trans       &trans      &trans    &trans     &trans      &trans     &trans    &trans
-    &reset     &trans       &trans       &trans       &trans       &trans      &to 0     &trans     &trans      &trans     &trans    &kp N0
+    &sys_reset &trans       &trans       &trans       &trans       &trans      &to 0     &trans     &trans      &trans     &trans    &kp N0
             >;
         };
     };
